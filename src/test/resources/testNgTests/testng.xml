@@ -1,0 +1,25 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<!--<suite name="cityfalcon" thread-count="4" parallel="tests" verbose="10"  >-->
+<!--    &lt;!&ndash;    <listeners>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <listener class-name="listeners.Listener"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </listeners>&ndash;&gt;-->
+
+<!--    <test name="Guest user" >-->
+<!--        <classes>-->
+<!--            <class name="HomePage.feature"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="GuestUserOnBoarding">-->
+<!--        <classes>-->
+<!--            <class name="tests.GuestUserOnBoarding"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name = "GuestUserHomePageSideBarTest">-->
+<!--        <classes>-->
+<!--            <class name="tests.GuestUserHomePageSideBarTest"/>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+
+<!--</suite>-->
