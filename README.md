@@ -1,4 +1,4 @@
-<h1>PlayWright with reusable Gherkin for both desktop and  mobile view <img src="react-2.svg" height="30"> .</h1>
+<h1>PlayWright with reusable Gherkin for both desktop and  mobile view  .</h1>
 
 <h3>Hello and welcome to My project. :wave: </h3> 
 
