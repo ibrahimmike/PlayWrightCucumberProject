@@ -9,23 +9,22 @@ different application parts which is usually used with React apps it should have
 <h6>Leveraging the Pico container all the objects will be set for use</h6>
 
 The libs used to create this framework are:
-- Web driver Manager
-- Selenium
-- Extent report.
-- Page factory
+- PlayWright
+- Java oop
+- Cucumber
+- Gherkin
 
 Main challenges of automating a React app, and how to fix them
 
 1. Web elements are usually built and destroyed each time the pages are loading, or a new component is showing so relocating them returns errors.
-2. With each update the frontend developers do, the already created xpaths for the framework are obsolete and the elements can’t be located whether the elements are located via absolute or relative xpaths or other locators as many components of the react app are reusing the same css classes and the same name of the component over and over.
+2. With each update the frontend developers do, the already created xpaths for the framework are obsolete and the elements can’t be located whether the elements are located via absolute or relative xpaths or other locators as many components of the React app are reusing the same css classes and the same name of the component over and over.
 
 Those challenges make the creation of automation tests for the React applications hectic even with no coding tools like Katalon studio, whether the web elements on the same page got destroyed and rebuilt,  or the locators have changed completely.
 
 How to fix:
-1. Use page factory in locating the web element assures a refreshed call for every locator.
-2. Applying OOP principals updates the locators for  the page as the return of a new instance of the page returns fresh elements every time it is called.
-3. When assigning a locator to a web element on the page create a relative xpath, it should be relative  to the component, scroll to view to the component when the Object of the component is called can also make it easier to locate the elements.
-4. Remember that React is all about reusing components, so it is totally normal that the same class and data in the html appear multiple times in different components, so use Parent child and ancestor xpaths to locate the desired component.
+1. Use playWright waits and update the locators requests for each page on the pom. 
+2. When assigning a locator to a web element on the page create a relative xpath, it should be relative  to the component, scroll to view to the component when the Object of the component is called can also make it easier to locate the elements.
+3. Remember that React is all about reusing components, so it is totally normal that the same class and data in the html appear multiple times in different components, so use Parent child and ancestor xpaths to locate the desired component.
 
 
 How to run the code and run in the terminal
